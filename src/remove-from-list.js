@@ -22,17 +22,19 @@ const { NotImplementedError } = require("../lib/errors");
  * }
  */
 function removeKFromList(l, k) {
-  console.log(l);
+  // console.log(l);
 
-  let newArr = [];
-  if (!Array.isArray(l)) {
-    return [];
-  }
-  let arr = l.join("").replaceAll(k, "").split("");
-  arr.forEach((item) => {
-    newArr.push(+item);
-  });
-  return newArr;
+  // let newArr = [];
+  // if (!Array.isArray(l)) {
+  //   return [];
+  // }
+  // let arr = l.join("").replaceAll(k, "").split("");
+  // arr.forEach((item) => {
+  //   newArr.push(+item);
+  // });
+  // return newArr;
+  // Remove line below and write your code here
+  throw new NotImplementedError("Not implemented");
 }
 
 module.exports = {
